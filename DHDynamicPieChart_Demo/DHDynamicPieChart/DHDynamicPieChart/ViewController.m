@@ -28,6 +28,7 @@
         chart.lineWidth = 30.0;
         chart.startAngle = 3.0 / 4.0 * M_PI;
         chart.endAngle = 9.0 / 4.0 * M_PI;
+        chart.animateDurationBySeconds = 0.5;
         chart.levelBackgroundColor = [UIColor colorWithRed:0.92 green:0.92 blue:0.92 alpha:1.0];
         chart.levelTintColors = @[[UIColor colorWithRed:0.90 green:0.22 blue:0.46 alpha:1.0],
                                   [UIColor colorWithRed:0.73 green:0.22 blue:0.90 alpha:1.0],
@@ -45,6 +46,7 @@
         chart.lineWidth = 40.0;
         chart.startAngle = 7 / 4.0 * M_PI;
         chart.endAngle = 13.0 / 4.0 * M_PI;
+        chart.animateDurationBySeconds = 1.0;
         chart.levelBackgroundColor = [UIColor colorWithRed:0.92 green:0.92 blue:0.92 alpha:1.0];
         chart.levelTintColors = @[[UIColor colorWithRed:0.90 green:0.22 blue:0.46 alpha:1.0],
                                   [UIColor colorWithRed:0.73 green:0.22 blue:0.90 alpha:1.0],
@@ -62,6 +64,7 @@
         chart.lineWidth = 20.0;
         chart.startAngle =M_PI;
         chart.endAngle = 2 * M_PI;
+        chart.animateDurationBySeconds = 1.5;
         chart.levelBackgroundColor = [UIColor colorWithRed:0.89 green:0.84 blue:0.91 alpha:1.0];
         chart.levelTintColors = @[[UIColor colorWithRed:0.68 green:0.44 blue:0.78 alpha:1.0],
                                   [UIColor colorWithRed:0.65 green:0.36 blue:0.77 alpha:1.0],
@@ -79,6 +82,7 @@
         chart.lineWidth = 10.0;
         chart.startAngle = 1.0 / 4.0 * M_PI;
         chart.endAngle = 7.0 / 4.0 * M_PI;
+        chart.animateDurationBySeconds = 0.5;
         chart.levelBackgroundColor = [UIColor colorWithRed:0.92 green:0.92 blue:0.92 alpha:1.0];
         chart.levelTintColors = @[[UIColor colorWithRed:0.32 green:0.40 blue:0.84 alpha:1.0],
                                   [UIColor colorWithRed:0.32 green:0.84 blue:0.78 alpha:1.0]];
@@ -93,6 +97,7 @@
         chart.lineWidth = 30.0;
         chart.startAngle = 0;
         chart.endAngle = 2 * M_PI;
+        chart.animateDurationBySeconds = 0.5;
         chart.levelBackgroundColor = [UIColor colorWithRed:0.92 green:0.92 blue:0.92 alpha:1.0];
         chart.levelTintColors = @[[UIColor colorWithRed:0.32 green:0.39 blue:0.73 alpha:1.0],
                                   [UIColor colorWithRed:0.73 green:0.32 blue:0.64 alpha:1.0],
