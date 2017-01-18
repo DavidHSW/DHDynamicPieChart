@@ -13,6 +13,7 @@
 		A239D5591E2DC944001B208D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A239D5571E2DC944001B208D /* Main.storyboard */; };
 		A239D55B1E2DC944001B208D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A239D55A1E2DC944001B208D /* Assets.xcassets */; };
 		A239D55E1E2DC944001B208D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A239D55C1E2DC944001B208D /* LaunchScreen.storyboard */; };
+		A239D5701E2DCAD0001B208D /* DHDynamicPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A239D56F1E2DCAD0001B208D /* DHDynamicPieChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A239D55A1E2DC944001B208D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A239D55D1E2DC944001B208D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A239D55F1E2DC944001B208D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A239D56E1E2DCAD0001B208D /* DHDynamicPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDynamicPieChart.h; sourceTree = "<group>"; };
+		A239D56F1E2DCAD0001B208D /* DHDynamicPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDynamicPieChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				A239D5521E2DC944001B208D /* AppDelegate.m */,
 				A239D5541E2DC944001B208D /* ViewController.h */,
 				A239D5551E2DC944001B208D /* ViewController.m */,
+				A239D56D1E2DCAD0001B208D /* DHDynamicPieChart */,
 				A239D5571E2DC944001B208D /* Main.storyboard */,
 				A239D55A1E2DC944001B208D /* Assets.xcassets */,
 				A239D55C1E2DC944001B208D /* LaunchScreen.storyboard */,
@@ -77,6 +81,16 @@
 				A239D54F1E2DC944001B208D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A239D56D1E2DCAD0001B208D /* DHDynamicPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				A239D56E1E2DCAD0001B208D /* DHDynamicPieChart.h */,
+				A239D56F1E2DCAD0001B208D /* DHDynamicPieChart.m */,
+			);
+			name = DHDynamicPieChart;
+			path = ../../../DHDynamicPieChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +166,7 @@
 				A239D5561E2DC944001B208D /* ViewController.m in Sources */,
 				A239D5531E2DC944001B208D /* AppDelegate.m in Sources */,
 				A239D5501E2DC944001B208D /* main.m in Sources */,
+				A239D5701E2DCAD0001B208D /* DHDynamicPieChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
