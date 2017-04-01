@@ -1,19 +1,27 @@
 # DHDynamicPieChart
 
-##Feature
+## Feature
 Animate with any level, angle, tint colors as well as animation duration.
 
-##Demo
+## Demo
 ![img](https://github.com/DavidHSW/DHDynamicPieChart/blob/master/DemoGif.gif)
 
-##Installation
+## Installation
+### Cocoapods
+Add `DHDynamicPieChart` to your Podfile:
+```Ruby
+      source 'https://github.com/CocoaPods/Specs.git'
+      pod 'DHDynamicPieChart'
+```
+### Simple use
 Simply drag the header file `DHDynamicPieChart.h`into your project:
-
+```Objective-C
     #import "DHDynamicPieChart.h"
+```
 
-##How to use
+## How to use
 Configure like this:
-
+```Objective-C
     DHDynamicPieChart *pieChart = ({
         DHDynamicPieChart *chart = [[DHDynamicPieChart alloc] initWithLevel:20];
         chart.lineWidth = 30.0;
@@ -29,6 +37,7 @@ Configure like this:
         chart;
     });
     [self.view addSubview:pieChart];
+```
 
-##Lisence
+## Lisence
 Under MIT.
